@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="allUsers.html">All User</a></li>
+                <li><a href="login.html">Login</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <div id="login-container" class="login-container">
+            <form action="" onsubmit="handleLogin(event)">
+              <div class="login">
+                <div class="row">
+                    <h2 style="text-align:center; padding-bottom: 20px;">Login</h2>
+                    <div class="vl">
+                      <span class="vl-innertext">or</span>
+                    </div>
+              
+                    
+              
+                    <div class="col">
+                      
+              
+                      <input type="text" name="username" placeholder="Username" id="username" required>
+                      <input type="password" name="password" placeholder="Password" id="password" required>
+                      <input type="submit" value="Login">
+                    </div>
+    
+                    <div class="col">
+                        <div class="hide-md-lg">
+                            <p>Or</p>
+                          </div>
+    
+                        <div class="res-container">
+                            <a href="register.html" style="color:#000" class="btn">Sign up</a>
+                        </div>
+                    </div>
+                    
+                  </div>
+              </div>
+            </form>
+          </div>
+          
+          
+        
+
+    </main>
+
+        
+
+
+    <footer>
+
+    </footer>
+
+
+
+
+
+
+    
+    <script src="js/auth.js"></script>
+</body>
+</html>
